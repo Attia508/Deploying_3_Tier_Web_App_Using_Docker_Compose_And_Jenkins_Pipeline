@@ -1,5 +1,4 @@
 import express from 'express'
-
 import authUser from '../middleware/auth.js'
 import { addToCart, getUserCart, updateCart } from '../controllers/cartController.js'
 
